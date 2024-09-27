@@ -1,3 +1,4 @@
+
 * {
   margin: 0%;
   padding: 0%;
@@ -9,7 +10,7 @@
   background-color: black;
   overflow: hidden;
   /* background: linear-gradient(60deg,rgba(255, 0, 0, 0.454) , rgba(128, 0, 128, 0.432) , rgba(255, 255, 0, 0.404) , rgba(89, 13, 156, 0.637)); */
-  background-size: cover;
+  /* background-size: cover; */
 }
 .vedio-this {
   height: 830px;
@@ -102,6 +103,7 @@
     .data {
       padding-top: 110px;
       margin-left: 100px;
+      width: auto;
       display: flex;
       flex-direction: column;
       h1 {
@@ -173,6 +175,7 @@
   height: 800px;
   /* background-image: url(skill.jpg); */
   /* background-size: cover; */
+  width: auto;
   .skills-content {
     height: 100%;
     width: 100%;
@@ -210,6 +213,7 @@
             i{
                 color: white;
                 font-size: 100px;
+                cursor: pointer;
                 margin: 30px 30px;
                 /* filter: drop-shadow(0px 0px 10px white); */
                 /* position: fixed; */
@@ -239,6 +243,10 @@
                 filter: drop-shadow(0px 10px 10px rgb(85, 238, 244));
 
             }
+            #git{
+                filter: drop-shadow(0px 10px 10px rgb(202, 86, 74));
+
+            }
         }
       }
       .skill2 {
@@ -254,7 +262,7 @@
         .code-present1{
             height: 30%;
             width: 60%;
-            background-color: rgb(15, 19, 28);
+            background-color: rgb(18, 20, 46);
             margin-top: 20px;
             border-radius: 20px;
             border: 1px solid white;
@@ -266,44 +274,22 @@
             }
         }
         .code-present2{
-            height: 30%;
-            width: 60%;
-            /* background-color: red; */
-            margin-top: 20px;
-            background-color: rgb(15, 19, 28);
-            margin-top: 20px;
-            border-radius: 20px;
-            border: 1px solid white;
-            margin-left: 30%;
-            overflow: hidden;
-            .code-nav{
-                padding-left: 20px;
-                color: yellow;
-                border-bottom: 1px solid white;
-            }
-        }.code-present3{
-            height: 30%;
-            width: 60%;
-            /* background-color: red; */
-            margin-top: 20px;
-            background-color: rgb(15, 19, 28);
-            margin-top: 20px;
-            border-radius: 20px;
-            border: 1px solid white;
-            margin-left: 80px;
-            .code-nav{
-                padding-left: 20px;
-                color: yellow;
-                border-bottom: 1px solid white;
-            }
+          height: 60%;
+          width: 90%;
+          background-color: rgb(18, 20, 46);
+          margin: 20px 20px;
+          border-radius: 20px;
+          border: 1px solid white;
         }
+        
+        
       }
     }
   }
 }
 footer {
   height: 500px;
-  width: auto;
+  /* width: auto; */
   /* background-image: url(main_b-g.jpg); */
   background-size: cover;
   overflow: hidden;
